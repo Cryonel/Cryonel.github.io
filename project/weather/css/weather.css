@@ -1,0 +1,197 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left:0;
+    top:0;
+}
+.first img{
+    width: 100%;
+    height: 100%;
+}
+ul,li{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+/*头部开始*/
+header {
+    width: 100%;
+    height: .86rem;
+    background: #299ae6;
+    border-bottom: 1px solid #2383c4;
+}
+header span {
+    display: block;
+    font-size: .45rem;
+    text-align: center;
+    line-height: .86rem;
+    color: #fff;
+}
+
+/*头部结束*/
+/*天气开始*/
+#container {
+    width: 7.3rem;
+    height: 5.08rem;
+    background: #4498ff;
+    padding: .1rem;
+}
+
+.conLeft {
+    width: 3.65rem;
+    height: 5.08rem;
+    /*background: yellow;*/
+    float: left;
+}
+
+.conLeft h3 {
+    font-size: .5rem;
+    margin-left: .2rem;
+    margin-top: .2rem;
+    color: #fff;
+}
+.imgBox{
+    width: 3rem;
+    height: 3rem;
+    margin-top:.1rem;
+    margin-left:.2rem;
+}
+.conRight {
+    width: 3.65rem;
+    height: 5.08rem;
+    float: left;
+}
+.cRtop span{
+    display: block;
+    width: 1.6rem;
+    height: .5rem;
+    background: #3331f1;
+    color:#fff;
+    float:right;
+    font-size: .3rem;
+    text-align: center;
+    line-height: .5rem;
+    border-radius: .2rem;
+    margin-top:.2rem;
+}
+.degree{
+    width: 2rem;
+    height: 2rem;
+    margin-top:.6rem;
+    margin-left:1rem;
+    color:#fff;
+    float:right;
+    text-align: right;
+}
+.center{
+    width: 2rem;
+    height: 2rem;
+    margin-top:3rem;
+    margin-left:1.5rem;
+    /*background: red;*/
+}
+.center div{
+    width: 2rem;
+    height: 1rem;
+    font-size: .3rem;
+    color:#fff;
+    text-align: right;
+    margin-top:.1rem;
+}
+/*天气结束*/
+/*预报开始*/
+#yubao{
+    width: 100%;
+    height: 100%;
+    background: #f9f9f9;
+    padding-top:.2rem;
+}
+.innerbox{
+    width: 7.1rem;
+    height: 100%;
+    background: #fff;
+    border:.01rem solid #ccc;
+    margin:0 auto;
+}
+.innerbox span{
+    display: block;
+    width: 6.8rem;
+    height: 1rem;
+    font-size: .4rem;
+    margin:0 auto;
+    line-height: 1rem;
+}
+.weather{
+    width: 6.8rem;
+    height: 2.1rem;
+    border-bottom:1px solid #ccc;
+    margin:0 auto;
+    overflow: scroll;
+}
+.weather::-webkit-scrollbar{
+    width:0;
+    height: 0;
+    text-align: center;
+    line-height: 2.1rem;
+}
+.weather ul{
+    width: 28.8rem;
+    height: 2.1rem;
+}
+.weather ul li{
+    width: 1.2rem;
+    height: 2.1rem;
+    float:left;
+}
+.weather ul li span{
+    width: 1.2rem;
+    height: .7rem;
+    /*background: blue;*/
+}
+.qiri{
+    width: 6.8rem;
+    height: 7rem;
+    margin:0 auto;
+}
+.week{
+    width: 6.8rem;
+    height: 7rem;
+}
+.week li{
+    border-bottom: 1px solid #ccc;
+}
+.week span{
+    display: block;
+    width: 1.7rem;
+    height: 1rem;
+    float:left;
+    font-size: .3rem;
+    text-align: center;
+    line-height: 1rem;
+}
+.qiri h5{
+    font-size: .4rem;
+    font-weight: 500;
+}
+/*预报结束*/
+
+/*second*/
+#province,#city{
+    width: 3rem;
+    height: 1rem;
+    font-size: .4rem;
+    text-align: center;
+    line-height: 1rem;
+    margin-left:.3rem;
+}
+.second{
+    display: none;
+}
